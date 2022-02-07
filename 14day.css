@@ -1,0 +1,88 @@
+.flex {
+  background-color: rgb(220, 246, 250);
+  border: 1px solid black;
+  width: 1100px;
+  height: 600px;
+}
+p {
+  background-color: rgb(87, 85, 85);
+  height: 20px;
+  margin: 0px;
+}
+p {
+  color: white;
+  text-align: center;
+  padding: 25px 0px;
+  /* font-weight: bold; */
+}
+.mid {
+  position: absolute;
+}
+.a {
+  height: 450px;
+  width: 250px;
+  background-color: rgb(48, 44, 44);
+  margin: 40px 0px 40px 40px;
+  border-radius: 20px;
+  position: fixed;
+}
+.b {
+  height: 35px;
+  width: 450px;
+  border-radius: 5px;
+  background-color: rgb(48, 44, 44);
+  top: 40px;
+  left: 480px;
+  right: 150px;
+  position: relative;
+  color: grey;
+  /* padding: 3px opx 3px 3px; */
+  text-align: left;
+  text-indent: 10px;
+  padding-top: 8px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* justify-content: center;
+  align-content: space-even; */
+  margin-top: 130px;
+  margin-left: 380px;
+  margin-right: 90px;
+}
+.c {
+  background-color: rgb(48, 44, 44);
+  height: 125px;
+  width: 180px;
+  border-radius: 8px;
+}
+.d {
+  background-color: rgb(48, 44, 44);
+  height: 125px;
+  width: 180px;
+  border-radius: 8px;
+}
+.e {
+  background-color: rgb(48, 44, 44);
+  height: 125px;
+  width: 180px;
+  border-radius: 8px;
+}
+.f {
+  background-color: rgb(48, 44, 44);
+  height: 170px;
+  width: 640px;
+  border-radius: 10px;
+  margin-top: 57px;
+  margin-left: 377px;
+  margin-bottom: 20px;
+}
+i {
+  bottom: 55px;
+  left: 10px;
+  position: relative;
+  font-size: 40px;
+  color: white;
+}
